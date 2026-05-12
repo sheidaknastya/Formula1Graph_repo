@@ -1,0 +1,399 @@
+<mxfile host="app.diagrams.net" pages="5">
+
+<!-- ========== 1. Узлы: пилоты ========== -->
+<diagram name="Пилоты" id="drivers_page">
+<mxGraphModel dx="1288" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<root>
+<mxCell id="0"/><mxCell id="1" parent="0"/>
+
+<mxCell id="d1" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Льюис Хэмилтон" vertex="1"><mxGeometry x="40" y="60" width="210" height="130" as="geometry"/></mxCell>
+<mxCell id="d1a" parent="d1" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_пилота = 1" vertex="1"><mxGeometry y="30" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d1b" parent="d1" style="text;fontSize=12;align=left;spacingLeft=8;" value="гражданство = британский" vertex="1"><mxGeometry y="55" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d1c" parent="d1" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_рождения = 1985" vertex="1"><mxGeometry y="80" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d1d" parent="d1" style="text;fontSize=12;align=left;spacingLeft=8;" value="статус = активен" vertex="1"><mxGeometry y="105" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="d2" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Макс Ферстаппен" vertex="1"><mxGeometry x="290" y="60" width="210" height="130" as="geometry"/></mxCell>
+<mxCell id="d2a" parent="d2" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_пилота = 2" vertex="1"><mxGeometry y="30" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d2b" parent="d2" style="text;fontSize=12;align=left;spacingLeft=8;" value="гражданство = нидерландский" vertex="1"><mxGeometry y="55" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d2c" parent="d2" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_рождения = 1997" vertex="1"><mxGeometry y="80" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d2d" parent="d2" style="text;fontSize=12;align=left;spacingLeft=8;" value="статус = активен" vertex="1"><mxGeometry y="105" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="d3" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Шарль Леклер" vertex="1"><mxGeometry x="540" y="60" width="210" height="130" as="geometry"/></mxCell>
+<mxCell id="d3a" parent="d3" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_пилота = 3" vertex="1"><mxGeometry y="30" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d3b" parent="d3" style="text;fontSize=12;align=left;spacingLeft=8;" value="гражданство = монегаск" vertex="1"><mxGeometry y="55" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d3c" parent="d3" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_рождения = 1997" vertex="1"><mxGeometry y="80" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d3d" parent="d3" style="text;fontSize=12;align=left;spacingLeft=8;" value="статус = активен" vertex="1"><mxGeometry y="105" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="d4" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Фернандо Алонсо" vertex="1"><mxGeometry x="40" y="240" width="210" height="130" as="geometry"/></mxCell>
+<mxCell id="d4a" parent="d4" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_пилота = 4" vertex="1"><mxGeometry y="30" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d4b" parent="d4" style="text;fontSize=12;align=left;spacingLeft=8;" value="гражданство = испанский" vertex="1"><mxGeometry y="55" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d4c" parent="d4" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_рождения = 1981" vertex="1"><mxGeometry y="80" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d4d" parent="d4" style="text;fontSize=12;align=left;spacingLeft=8;" value="статус = активен" vertex="1"><mxGeometry y="105" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="d5" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Ландо Норрис" vertex="1"><mxGeometry x="290" y="240" width="210" height="130" as="geometry"/></mxCell>
+<mxCell id="d5a" parent="d5" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_пилота = 5" vertex="1"><mxGeometry y="30" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d5b" parent="d5" style="text;fontSize=12;align=left;spacingLeft=8;" value="гражданство = британский" vertex="1"><mxGeometry y="55" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d5c" parent="d5" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_рождения = 1999" vertex="1"><mxGeometry y="80" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d5d" parent="d5" style="text;fontSize=12;align=left;spacingLeft=8;" value="статус = активен" vertex="1"><mxGeometry y="105" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="d6" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Карлос Сайнс" vertex="1"><mxGeometry x="540" y="240" width="210" height="130" as="geometry"/></mxCell>
+<mxCell id="d6a" parent="d6" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_пилота = 6" vertex="1"><mxGeometry y="30" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d6b" parent="d6" style="text;fontSize=12;align=left;spacingLeft=8;" value="гражданство = испанский" vertex="1"><mxGeometry y="55" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d6c" parent="d6" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_рождения = 1994" vertex="1"><mxGeometry y="80" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d6d" parent="d6" style="text;fontSize=12;align=left;spacingLeft=8;" value="статус = активен" vertex="1"><mxGeometry y="105" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="d7" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Серхио Перес" vertex="1"><mxGeometry x="40" y="420" width="210" height="130" as="geometry"/></mxCell>
+<mxCell id="d7a" parent="d7" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_пилота = 7" vertex="1"><mxGeometry y="30" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d7b" parent="d7" style="text;fontSize=12;align=left;spacingLeft=8;" value="гражданство = мексиканский" vertex="1"><mxGeometry y="55" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d7c" parent="d7" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_рождения = 1990" vertex="1"><mxGeometry y="80" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d7d" parent="d7" style="text;fontSize=12;align=left;spacingLeft=8;" value="статус = активен" vertex="1"><mxGeometry y="105" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="d8" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Джордж Расселл" vertex="1"><mxGeometry x="290" y="420" width="210" height="130" as="geometry"/></mxCell>
+<mxCell id="d8a" parent="d8" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_пилота = 8" vertex="1"><mxGeometry y="30" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d8b" parent="d8" style="text;fontSize=12;align=left;spacingLeft=8;" value="гражданство = британский" vertex="1"><mxGeometry y="55" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d8c" parent="d8" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_рождения = 1998" vertex="1"><mxGeometry y="80" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d8d" parent="d8" style="text;fontSize=12;align=left;spacingLeft=8;" value="статус = активен" vertex="1"><mxGeometry y="105" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="d9" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Валттери Боттас" vertex="1"><mxGeometry x="540" y="420" width="210" height="130" as="geometry"/></mxCell>
+<mxCell id="d9a" parent="d9" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_пилота = 9" vertex="1"><mxGeometry y="30" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d9b" parent="d9" style="text;fontSize=12;align=left;spacingLeft=8;" value="гражданство = финский" vertex="1"><mxGeometry y="55" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d9c" parent="d9" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_рождения = 1989" vertex="1"><mxGeometry y="80" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d9d" parent="d9" style="text;fontSize=12;align=left;spacingLeft=8;" value="статус = активен" vertex="1"><mxGeometry y="105" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="d10" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;startSize=30;" value="Даниэль Риккьярдо" vertex="1"><mxGeometry x="40" y="600" width="210" height="130" as="geometry"/></mxCell>
+<mxCell id="d10a" parent="d10" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_пилота = 10" vertex="1"><mxGeometry y="30" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d10b" parent="d10" style="text;fontSize=12;align=left;spacingLeft=8;" value="гражданство = австралийский" vertex="1"><mxGeometry y="55" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d10c" parent="d10" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_рождения = 1989" vertex="1"><mxGeometry y="80" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="d10d" parent="d10" style="text;fontSize=12;align=left;spacingLeft=8;" value="статус = активен" vertex="1"><mxGeometry y="105" width="210" height="25" as="geometry"/></mxCell>
+
+<!-- Легенда -->
+<mxCell id="legD" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=12;startSize=25;" value="Легенда:" vertex="1"><mxGeometry x="260" y="560" width="300" height="155" as="geometry"/></mxCell>
+<mxCell id="legDa" parent="legD" style="text;fontSize=11;align=left;spacingLeft=8;" value="🔵 Узел: пилот (таблица пилотов)" vertex="1"><mxGeometry y="25" width="300" height="22" as="geometry"/></mxCell>
+<mxCell id="legDb" parent="legD" style="text;fontSize=11;align=left;spacingLeft=8;" value="🟠 Связь «в_составе»: пилот → команда" vertex="1"><mxGeometry y="47" width="300" height="22" as="geometry"/></mxCell>
+<mxCell id="legDc" parent="legD" style="text;fontSize=11;align=left;spacingLeft=8;" value="🟡 Связь «управляет»: пилот → болид" vertex="1"><mxGeometry y="69" width="300" height="22" as="geometry"/></mxCell>
+<mxCell id="legDd" parent="legD" style="text;fontSize=11;align=left;spacingLeft=8;" value="🟢 Связь «победа_на»: пилот → трасса" vertex="1"><mxGeometry y="91" width="300" height="22" as="geometry"/></mxCell>
+<mxCell id="legDe" parent="legD" style="text;fontSize=11;align=left;spacingLeft=8;" value="🟣 Связь «использует»: команда → болид (лист «Команды и болиды»)" vertex="1"><mxGeometry y="113" width="300" height="22" as="geometry"/></mxCell>
+
+</root></mxGraphModel></diagram>
+
+<!-- ========== 2. Узлы: команды и болиды ========== -->
+<diagram name="Команды и болиды" id="teams_cars_page">
+<mxGraphModel dx="1288" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<root>
+<mxCell id="0"/><mxCell id="1" parent="0"/>
+
+<mxCell id="t1" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;" value="Мерседес-AMG Петронас" vertex="1"><mxGeometry x="40" y="60" width="230" height="130" as="geometry"/></mxCell>
+<mxCell id="t1a" parent="t1" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_команды = 1" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="t1b" parent="t1" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Германия" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="t1c" parent="t1" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_основания = 2010" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="t1d" parent="t1" style="text;fontSize=12;align=left;spacingLeft=8;" value="пилоты = Hamilton, Russell" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
+
+<mxCell id="t2" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;" value="Ред Булл Рейсинг" vertex="1"><mxGeometry x="310" y="60" width="230" height="130" as="geometry"/></mxCell>
+<mxCell id="t2a" parent="t2" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_команды = 2" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="t2b" parent="t2" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Австрия" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="t2c" parent="t2" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_основания = 2005" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="t2d" parent="t2" style="text;fontSize=12;align=left;spacingLeft=8;" value="пилоты = Verstappen, Perez" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
+
+<mxCell id="t3" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;" value="Скудерия Феррари" vertex="1"><mxGeometry x="580" y="60" width="230" height="130" as="geometry"/></mxCell>
+<mxCell id="t3a" parent="t3" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_команды = 3" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="t3b" parent="t3" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Италия" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="t3c" parent="t3" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_основания = 1950" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="t3d" parent="t3" style="text;fontSize=12;align=left;spacingLeft=8;" value="пилоты = Leclerc, Sainz" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
+
+<mxCell id="t4" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;" value="Макларен Ф1" vertex="1"><mxGeometry x="40" y="240" width="230" height="130" as="geometry"/></mxCell>
+<mxCell id="t4a" parent="t4" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_команды = 4" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="t4b" parent="t4" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Великобритания" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="t4c" parent="t4" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_основания = 1963" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="t4d" parent="t4" style="text;fontSize=12;align=left;spacingLeft=8;" value="пилот = Norris" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
+
+<mxCell id="t5" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;startSize=30;" value="Астон Мартин" vertex="1"><mxGeometry x="310" y="240" width="230" height="130" as="geometry"/></mxCell>
+<mxCell id="t5a" parent="t5" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_команды = 5" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="t5b" parent="t5" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Великобритания" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="t5c" parent="t5" style="text;fontSize=12;align=left;spacingLeft=8;" value="год_основания = 2021" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="t5d" parent="t5" style="text;fontSize=12;align=left;spacingLeft=8;" value="пилот = Alonso" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
+
+<!-- Болиды -->
+<mxCell id="c1" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;startSize=30;" value="W14" vertex="1"><mxGeometry x="40" y="440" width="210" height="105" as="geometry"/></mxCell>
+<mxCell id="c1a" parent="c1" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_болида = 1" vertex="1"><mxGeometry y="30" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="c1b" parent="c1" style="text;fontSize=12;align=left;spacingLeft=8;" value="модель = W14" vertex="1"><mxGeometry y="55" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="c1c" parent="c1" style="text;fontSize=12;align=left;spacingLeft=8;" value="двигатель = Mercedes" vertex="1"><mxGeometry y="80" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="c2" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;startSize=30;" value="RB19" vertex="1"><mxGeometry x="290" y="440" width="210" height="105" as="geometry"/></mxCell>
+<mxCell id="c2a" parent="c2" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_болида = 2" vertex="1"><mxGeometry y="30" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="c2b" parent="c2" style="text;fontSize=12;align=left;spacingLeft=8;" value="модель = RB19" vertex="1"><mxGeometry y="55" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="c2c" parent="c2" style="text;fontSize=12;align=left;spacingLeft=8;" value="двигатель = Honda RBPT" vertex="1"><mxGeometry y="80" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="c3" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;startSize=30;" value="SF-23" vertex="1"><mxGeometry x="540" y="440" width="210" height="105" as="geometry"/></mxCell>
+<mxCell id="c3a" parent="c3" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_болида = 3" vertex="1"><mxGeometry y="30" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="c3b" parent="c3" style="text;fontSize=12;align=left;spacingLeft=8;" value="модель = SF-23" vertex="1"><mxGeometry y="55" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="c3c" parent="c3" style="text;fontSize=12;align=left;spacingLeft=8;" value="двигатель = Ferrari" vertex="1"><mxGeometry y="80" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="c4" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;startSize=30;" value="MCL60" vertex="1"><mxGeometry x="40" y="590" width="210" height="105" as="geometry"/></mxCell>
+<mxCell id="c4a" parent="c4" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_болида = 4" vertex="1"><mxGeometry y="30" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="c4b" parent="c4" style="text;fontSize=12;align=left;spacingLeft=8;" value="модель = MCL60" vertex="1"><mxGeometry y="55" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="c4c" parent="c4" style="text;fontSize=12;align=left;spacingLeft=8;" value="двигатель = Mercedes" vertex="1"><mxGeometry y="80" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="c5" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;startSize=30;" value="AMR23" vertex="1"><mxGeometry x="290" y="590" width="210" height="105" as="geometry"/></mxCell>
+<mxCell id="c5a" parent="c5" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_болида = 5" vertex="1"><mxGeometry y="30" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="c5b" parent="c5" style="text;fontSize=12;align=left;spacingLeft=8;" value="модель = AMR23" vertex="1"><mxGeometry y="55" width="210" height="25" as="geometry"/></mxCell>
+<mxCell id="c5c" parent="c5" style="text;fontSize=12;align=left;spacingLeft=8;" value="двигатель = Mercedes" vertex="1"><mxGeometry y="80" width="210" height="25" as="geometry"/></mxCell>
+
+<!-- Легенда -->
+<mxCell id="legTC" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=12;startSize=25;" value="Легенда:" vertex="1"><mxGeometry x="500" y="200" width="320" height="155" as="geometry"/></mxCell>
+<mxCell id="legTCa" parent="legTC" style="text;fontSize=11;align=left;spacingLeft=8;fontColor=#82b366;" value="🟢 Узел: команда" vertex="1"><mxGeometry y="25" width="320" height="22" as="geometry"/></mxCell>
+<mxCell id="legTCb" parent="legTC" style="text;fontSize=11;align=left;spacingLeft=8;fontColor=#d6b656;" value="🟡 Узел: болид" vertex="1"><mxGeometry y="47" width="320" height="22" as="geometry"/></mxCell>
+<mxCell id="legTCc" parent="legTC" style="text;fontSize=11;align=left;spacingLeft=8;" value="🟣 Связь «использует»: команда → болид" vertex="1"><mxGeometry y="69" width="320" height="22" as="geometry"/></mxCell>
+<mxCell id="legTCd" parent="legTC" style="text;fontSize=11;align=left;spacingLeft=8;" value="🟠 Связь «в_составе»: пилот → команда" vertex="1"><mxGeometry y="91" width="320" height="22" as="geometry"/></mxCell>
+<mxCell id="legTCe" parent="legTC" style="text;fontSize=11;align=left;spacingLeft=8;" value="🟡 Связь «управляет»: пилот → болид (лист «Связи: состав и болид»)" vertex="1"><mxGeometry y="113" width="320" height="22" as="geometry"/></mxCell>
+
+</root></mxGraphModel></diagram>
+
+<!-- ========== 3. Узлы: трассы ========== -->
+<diagram name="Трассы" id="tracks_page">
+<mxGraphModel dx="1288" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<root>
+<mxCell id="0"/><mxCell id="1" parent="0"/>
+
+<mxCell id="tr1" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;" value="Бахрейн (Международная трасса)" vertex="1"><mxGeometry x="40" y="60" width="230" height="130" as="geometry"/></mxCell>
+<mxCell id="tr1a" parent="tr1" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_трассы = 1" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr1b" parent="tr1" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Бахрейн" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr1c" parent="tr1" style="text;fontSize=12;align=left;spacingLeft=8;" value="длина_км = 5.412" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr1d" parent="tr1" style="text;fontSize=12;align=left;spacingLeft=8;" value="победитель_2023 = Ферстаппен" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
+
+<mxCell id="tr2" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;" value="Джидда (набережная)" vertex="1"><mxGeometry x="310" y="60" width="230" height="130" as="geometry"/></mxCell>
+<mxCell id="tr2a" parent="tr2" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_трассы = 2" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr2b" parent="tr2" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Саудовская Аравия" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr2c" parent="tr2" style="text;fontSize=12;align=left;spacingLeft=8;" value="длина_км = 6.174" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr2d" parent="tr2" style="text;fontSize=12;align=left;spacingLeft=8;" value="победитель_2023 = Перес" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
+
+<mxCell id="tr3" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;" value="Альберт-парк" vertex="1"><mxGeometry x="580" y="60" width="230" height="130" as="geometry"/></mxCell>
+<mxCell id="tr3a" parent="tr3" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_трассы = 3" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr3b" parent="tr3" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Австралия" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr3c" parent="tr3" style="text;fontSize=12;align=left;spacingLeft=8;" value="длина_км = 5.278" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr3d" parent="tr3" style="text;fontSize=12;align=left;spacingLeft=8;" value="победитель_2023 = Расселл" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
+
+<mxCell id="tr4" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;" value="Имола" vertex="1"><mxGeometry x="40" y="240" width="230" height="130" as="geometry"/></mxCell>
+<mxCell id="tr4a" parent="tr4" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_трассы = 4" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr4b" parent="tr4" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Италия" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr4c" parent="tr4" style="text;fontSize=12;align=left;spacingLeft=8;" value="длина_км = 4.909" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr4d" parent="tr4" style="text;fontSize=12;align=left;spacingLeft=8;" value="победитель_2023 = Сайнс" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
+
+<mxCell id="tr5" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;" value="Монако" vertex="1"><mxGeometry x="310" y="240" width="230" height="130" as="geometry"/></mxCell>
+<mxCell id="tr5a" parent="tr5" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_трассы = 5" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr5b" parent="tr5" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Монако" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr5c" parent="tr5" style="text;fontSize=12;align=left;spacingLeft=8;" value="длина_км = 3.337" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr5d" parent="tr5" style="text;fontSize=12;align=left;spacingLeft=8;" value="победитель_2023 = Леклер" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
+
+<mxCell id="tr6" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;" value="Монреаль (Жиль Вильнёв)" vertex="1"><mxGeometry x="580" y="240" width="230" height="130" as="geometry"/></mxCell>
+<mxCell id="tr6a" parent="tr6" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_трассы = 6" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr6b" parent="tr6" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Канада" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr6c" parent="tr6" style="text;fontSize=12;align=left;spacingLeft=8;" value="длина_км = 4.361" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr6d" parent="tr6" style="text;fontSize=12;align=left;spacingLeft=8;" value="победитель_2023 = Норрис" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
+
+<mxCell id="tr7" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;" value="Сильверстоун" vertex="1"><mxGeometry x="40" y="420" width="230" height="130" as="geometry"/></mxCell>
+<mxCell id="tr7a" parent="tr7" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_трассы = 7" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr7b" parent="tr7" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Великобритания" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr7c" parent="tr7" style="text;fontSize=12;align=left;spacingLeft=8;" value="длина_км = 5.891" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr7d" parent="tr7" style="text;fontSize=12;align=left;spacingLeft=8;" value="победитель_2023 = Хэмилтон" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
+
+<mxCell id="tr8" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;" value="Шпильберг (Ред Булл Ринг)" vertex="1"><mxGeometry x="310" y="420" width="230" height="130" as="geometry"/></mxCell>
+<mxCell id="tr8a" parent="tr8" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_трассы = 8" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr8b" parent="tr8" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Австрия" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr8c" parent="tr8" style="text;fontSize=12;align=left;spacingLeft=8;" value="длина_км = 4.318" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr8d" parent="tr8" style="text;fontSize=12;align=left;spacingLeft=8;" value="победитель_2023 = Ферстаппен" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
+
+<mxCell id="tr9" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;" value="Монца" vertex="1"><mxGeometry x="580" y="420" width="230" height="130" as="geometry"/></mxCell>
+<mxCell id="tr9a" parent="tr9" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_трассы = 9" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr9b" parent="tr9" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Италия" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr9c" parent="tr9" style="text;fontSize=12;align=left;spacingLeft=8;" value="длина_км = 5.793" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr9d" parent="tr9" style="text;fontSize=12;align=left;spacingLeft=8;" value="победитель_2023 = Алонсо" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
+
+<mxCell id="tr10" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;startSize=30;" value="Судзука" vertex="1"><mxGeometry x="40" y="600" width="230" height="130" as="geometry"/></mxCell>
+<mxCell id="tr10a" parent="tr10" style="text;fontSize=12;align=left;spacingLeft=8;" value="id_трассы = 10" vertex="1"><mxGeometry y="30" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr10b" parent="tr10" style="text;fontSize=12;align=left;spacingLeft=8;" value="страна = Япония" vertex="1"><mxGeometry y="55" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr10c" parent="tr10" style="text;fontSize=12;align=left;spacingLeft=8;" value="длина_км = 5.807" vertex="1"><mxGeometry y="80" width="230" height="25" as="geometry"/></mxCell>
+<mxCell id="tr10d" parent="tr10" style="text;fontSize=12;align=left;spacingLeft=8;" value="победитель_2023 = Боттас" vertex="1"><mxGeometry y="105" width="230" height="25" as="geometry"/></mxCell>
+
+<!-- Легенда -->
+<mxCell id="legTr" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=12;startSize=25;" value="Легенда:" vertex="1"><mxGeometry x="270" y="560" width="340" height="130" as="geometry"/></mxCell>
+<mxCell id="legTra" parent="legTr" style="text;fontSize=11;align=left;spacingLeft=8;fontColor=#9673a6;" value="🟣 Узел: трасса" vertex="1"><mxGeometry y="25" width="340" height="22" as="geometry"/></mxCell>
+<mxCell id="legTrb" parent="legTr" style="text;fontSize=11;align=left;spacingLeft=8;" value="🟢 Связь «победа_на»: пилот → трасса (победа в гонке)" vertex="1"><mxGeometry y="47" width="340" height="22" as="geometry"/></mxCell>
+<mxCell id="legTrc" parent="legTr" style="text;fontSize=11;align=left;spacingLeft=8;" value="🟠 Связь «в_составе»: пилот → команда" vertex="1"><mxGeometry y="69" width="340" height="22" as="geometry"/></mxCell>
+<mxCell id="legTrd" parent="legTr" style="text;fontSize=11;align=left;spacingLeft=8;" value="🟡 Связь «управляет»: пилот → болид" vertex="1"><mxGeometry y="91" width="340" height="22" as="geometry"/></mxCell>
+
+</root></mxGraphModel></diagram>
+
+<!-- ========== 4. Рёбра: в_составе и управляет ========== -->
+<diagram name="Связи: состав и болид" id="edges1_page">
+<mxGraphModel dx="1288" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1800" math="0" shadow="0">
+<root>
+<mxCell id="0"/><mxCell id="1" parent="0"/>
+
+<!-- Пилоты слева -->
+<mxCell id="p1" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Хэмилтон" vertex="1"><mxGeometry x="40" y="60" width="160" height="50" as="geometry"/></mxCell>
+<mxCell id="p1x" parent="p1" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=1, британский, 1985" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
+
+<mxCell id="p2" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Ферстаппен" vertex="1"><mxGeometry x="40" y="160" width="160" height="50" as="geometry"/></mxCell>
+<mxCell id="p2x" parent="p2" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=2, нидерландский, 1997" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
+
+<mxCell id="p3" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Леклер" vertex="1"><mxGeometry x="40" y="260" width="160" height="50" as="geometry"/></mxCell>
+<mxCell id="p3x" parent="p3" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=3, монегаск, 1997" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
+
+<mxCell id="p4" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Алонсо" vertex="1"><mxGeometry x="40" y="360" width="160" height="50" as="geometry"/></mxCell>
+<mxCell id="p4x" parent="p4" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=4, испанский, 1981" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
+
+<mxCell id="p5" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Норрис" vertex="1"><mxGeometry x="40" y="460" width="160" height="50" as="geometry"/></mxCell>
+<mxCell id="p5x" parent="p5" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=5, британский, 1999" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
+
+<mxCell id="p6" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Сайнс" vertex="1"><mxGeometry x="40" y="560" width="160" height="50" as="geometry"/></mxCell>
+<mxCell id="p6x" parent="p6" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=6, испанский, 1994" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
+
+<mxCell id="p7" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Перес" vertex="1"><mxGeometry x="40" y="660" width="160" height="50" as="geometry"/></mxCell>
+<mxCell id="p7x" parent="p7" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=7, мексиканский, 1990" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
+
+<mxCell id="p8" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Расселл" vertex="1"><mxGeometry x="40" y="760" width="160" height="50" as="geometry"/></mxCell>
+<mxCell id="p8x" parent="p8" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=8, британский, 1998" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
+
+<!-- Команды по центру -->
+<mxCell id="tm1" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="Мерседес" vertex="1"><mxGeometry x="480" y="60" width="190" height="50" as="geometry"/></mxCell>
+<mxCell id="tm1x" parent="tm1" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=1, Германия, 2010" vertex="1"><mxGeometry y="25" width="190" height="25" as="geometry"/></mxCell>
+
+<mxCell id="tm2" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="Ред Булл" vertex="1"><mxGeometry x="480" y="230" width="190" height="50" as="geometry"/></mxCell>
+<mxCell id="tm2x" parent="tm2" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=2, Австрия, 2005" vertex="1"><mxGeometry y="25" width="190" height="25" as="geometry"/></mxCell>
+
+<mxCell id="tm3" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="Феррари" vertex="1"><mxGeometry x="480" y="400" width="190" height="50" as="geometry"/></mxCell>
+<mxCell id="tm3x" parent="tm3" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=3, Италия, 1950" vertex="1"><mxGeometry y="25" width="190" height="25" as="geometry"/></mxCell>
+
+<mxCell id="tm4" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="Макларен" vertex="1"><mxGeometry x="480" y="560" width="190" height="50" as="geometry"/></mxCell>
+<mxCell id="tm4x" parent="tm4" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=4, Великобритания, 1963" vertex="1"><mxGeometry y="25" width="190" height="25" as="geometry"/></mxCell>
+
+<mxCell id="tm5" parent="1" style="swimlane;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;startSize=25;" value="Астон Мартин" vertex="1"><mxGeometry x="480" y="460" width="190" height="50" as="geometry"/></mxCell>
+<mxCell id="tm5x" parent="tm5" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=5, Великобритания, 2021" vertex="1"><mxGeometry y="25" width="190" height="25" as="geometry"/></mxCell>
+
+<!-- Болиды справа -->
+<mxCell id="cr1" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="W14" vertex="1"><mxGeometry x="930" y="60" width="180" height="50" as="geometry"/></mxCell>
+<mxCell id="cr1x" parent="cr1" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=1, двигатель=Mercedes" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
+
+<mxCell id="cr2" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="RB19" vertex="1"><mxGeometry x="930" y="230" width="180" height="50" as="geometry"/></mxCell>
+<mxCell id="cr2x" parent="cr2" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=2, двигатель=Honda RBPT" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
+
+<mxCell id="cr3" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="SF-23" vertex="1"><mxGeometry x="930" y="400" width="180" height="50" as="geometry"/></mxCell>
+<mxCell id="cr3x" parent="cr3" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=3, двигатель=Ferrari" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
+
+<mxCell id="cr4" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="MCL60" vertex="1"><mxGeometry x="930" y="560" width="180" height="50" as="geometry"/></mxCell>
+<mxCell id="cr4x" parent="cr4" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=4, двигатель=Mercedes" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
+
+<mxCell id="cr5" parent="1" style="swimlane;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;startSize=25;" value="AMR23" vertex="1"><mxGeometry x="930" y="460" width="180" height="50" as="geometry"/></mxCell>
+<mxCell id="cr5x" parent="cr5" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=5, двигатель=Mercedes" vertex="1"><mxGeometry y="25" width="180" height="25" as="geometry"/></mxCell>
+
+<!-- Рёбра: в_составе (пилот → команда) -->
+<mxCell id="mo1" edge="1" parent="1" source="p1" target="tm1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[в_составе]&#xa;2013-2024, пилот"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="mo2" edge="1" parent="1" source="p2" target="tm2" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[в_составе]&#xa;2016-2024, пилот"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="mo3" edge="1" parent="1" source="p3" target="tm3" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[в_составе]&#xa;2019-2024, пилот"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="mo4" edge="1" parent="1" source="p4" target="tm5" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[в_составе]&#xa;2023-2024, пилот"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="mo5" edge="1" parent="1" source="p5" target="tm4" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[в_составе]&#xa;2019-2024, пилот"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="mo6" edge="1" parent="1" source="p6" target="tm3" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[в_составе]&#xa;2021-2024, пилот"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="mo7" edge="1" parent="1" source="p7" target="tm2" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[в_составе]&#xa;2021-2024, пилот"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="mo8" edge="1" parent="1" source="p8" target="tm1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;" value="[в_составе]&#xa;2022-2024, пилот"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<!-- Рёбра: управляет (пилот → болид) -->
+<mxCell id="dr1" edge="1" parent="1" source="p1" target="cr1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#d6b656;fontColor=#d6b656;" value="[управляет]&#xa;2022-2024, побед=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="dr2" edge="1" parent="1" source="p2" target="cr2" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#d6b656;fontColor=#d6b656;" value="[управляет]&#xa;2022-2024, побед=15"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="dr3" edge="1" parent="1" source="p3" target="cr3" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#d6b656;fontColor=#d6b656;" value="[управляет]&#xa;2022-2024, побед=3"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="dr4" edge="1" parent="1" source="p4" target="cr5" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#d6b656;fontColor=#d6b656;" value="[управляет]&#xa;2023-2024, побед=0"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="dr5" edge="1" parent="1" source="p5" target="cr4" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#d6b656;fontColor=#d6b656;" value="[управляет]&#xa;2023-2024, побед=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="dr6" edge="1" parent="1" source="p6" target="cr3" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#d6b656;fontColor=#d6b656;" value="[управляет]&#xa;2023-2024, побед=0"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="dr7" edge="1" parent="1" source="p7" target="cr2" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#d6b656;fontColor=#d6b656;" value="[управляет]&#xa;2022-2024, побед=2"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="dr8" edge="1" parent="1" source="p8" target="cr1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#d6b656;fontColor=#d6b656;" value="[управляет]&#xa;2022-2024, побед=0"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<!-- Легенда -->
+<mxCell id="legE1" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=12;startSize=25;" value="Легенда:" vertex="1"><mxGeometry x="40" y="870" width="400" height="100" as="geometry"/></mxCell>
+<mxCell id="legE1a" parent="legE1" style="text;fontSize=11;align=left;spacingLeft=8;" value="—— [в_составе]: пилот → команда (сезон, роль)" vertex="1"><mxGeometry y="25" width="400" height="22" as="geometry"/></mxCell>
+<mxCell id="legE1b" parent="legE1" style="text;fontSize=11;align=left;spacingLeft=8;fontColor=#d6b656;" value="—— [управляет]: пилот → болид (годы, победы на машине)" vertex="1"><mxGeometry y="47" width="400" height="22" as="geometry"/></mxCell>
+<mxCell id="legE1c" parent="legE1" style="text;fontSize=11;align=left;spacingLeft=8;fontColor=#82b366;" value="—— [использует]: команда → болид (сезон, статус в БД)" vertex="1"><mxGeometry y="69" width="400" height="22" as="geometry"/></mxCell>
+
+</root></mxGraphModel></diagram>
+
+<!-- ========== 5. Рёбра: победа_на (и использует в модели БД) ========== -->
+<diagram name="Связи: победы на трассах" id="edges2_page">
+<mxGraphModel dx="1288" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1800" math="0" shadow="0">
+<root>
+<mxCell id="0"/><mxCell id="1" parent="0"/>
+
+<!-- Пилоты (слева) -->
+<mxCell id="wp1" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Хэмилтон" vertex="1"><mxGeometry x="40" y="60" width="160" height="50" as="geometry"/></mxCell>
+<mxCell id="wp1x" parent="wp1" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=1, британский" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
+
+<mxCell id="wp2" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Ферстаппен" vertex="1"><mxGeometry x="40" y="160" width="160" height="50" as="geometry"/></mxCell>
+<mxCell id="wp2x" parent="wp2" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=2, нидерландский" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
+
+<mxCell id="wp3" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Леклер" vertex="1"><mxGeometry x="40" y="260" width="160" height="50" as="geometry"/></mxCell>
+<mxCell id="wp3x" parent="wp3" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=3, монегаск" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
+
+<mxCell id="wp4" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Алонсо" vertex="1"><mxGeometry x="40" y="360" width="160" height="50" as="geometry"/></mxCell>
+<mxCell id="wp4x" parent="wp4" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=4, испанский" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
+
+<mxCell id="wp5" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Норрис" vertex="1"><mxGeometry x="40" y="460" width="160" height="50" as="geometry"/></mxCell>
+<mxCell id="wp5x" parent="wp5" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=5, британский" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
+
+<mxCell id="wp6" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Сайнс" vertex="1"><mxGeometry x="40" y="560" width="160" height="50" as="geometry"/></mxCell>
+<mxCell id="wp6x" parent="wp6" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=6, испанский" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
+
+<mxCell id="wp7" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Перес" vertex="1"><mxGeometry x="40" y="660" width="160" height="50" as="geometry"/></mxCell>
+<mxCell id="wp7x" parent="wp7" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=7, мексиканский" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
+
+<mxCell id="wp8" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Расселл" vertex="1"><mxGeometry x="40" y="760" width="160" height="50" as="geometry"/></mxCell>
+<mxCell id="wp8x" parent="wp8" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=8, британский" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
+
+<mxCell id="wp9" parent="1" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;startSize=25;" value="Боттас" vertex="1"><mxGeometry x="40" y="860" width="160" height="50" as="geometry"/></mxCell>
+<mxCell id="wp9x" parent="wp9" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=9, финский" vertex="1"><mxGeometry y="25" width="160" height="25" as="geometry"/></mxCell>
+
+<!-- Трассы справа -->
+<mxCell id="wt1" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=12;startSize=25;" value="Сильверстоун" vertex="1"><mxGeometry x="700" y="60" width="210" height="50" as="geometry"/></mxCell>
+<mxCell id="wt1x" parent="wt1" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=7, Великобритания, 5,891 км" vertex="1"><mxGeometry y="25" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="wt2" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=12;startSize=25;" value="Бахрейн" vertex="1"><mxGeometry x="700" y="160" width="210" height="50" as="geometry"/></mxCell>
+<mxCell id="wt2x" parent="wt2" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=1, Бахрейн, 5,412 км" vertex="1"><mxGeometry y="25" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="wt3" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=12;startSize=25;" value="Шпильберг (Ред Булл Ринг)" vertex="1"><mxGeometry x="700" y="260" width="210" height="50" as="geometry"/></mxCell>
+<mxCell id="wt3x" parent="wt3" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=8, Австрия, 4,318 км" vertex="1"><mxGeometry y="25" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="wt4" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=12;startSize=25;" value="Монако" vertex="1"><mxGeometry x="700" y="360" width="210" height="50" as="geometry"/></mxCell>
+<mxCell id="wt4x" parent="wt4" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=5, Монако, 3,337 км" vertex="1"><mxGeometry y="25" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="wt5" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=12;startSize=25;" value="Монца" vertex="1"><mxGeometry x="700" y="460" width="210" height="50" as="geometry"/></mxCell>
+<mxCell id="wt5x" parent="wt5" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=9, Италия, 5,793 км" vertex="1"><mxGeometry y="25" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="wt6" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=12;startSize=25;" value="Имола" vertex="1"><mxGeometry x="700" y="560" width="210" height="50" as="geometry"/></mxCell>
+<mxCell id="wt6x" parent="wt6" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=4, Италия, 4,909 км" vertex="1"><mxGeometry y="25" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="wt7" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=12;startSize=25;" value="Джидда" vertex="1"><mxGeometry x="700" y="660" width="210" height="50" as="geometry"/></mxCell>
+<mxCell id="wt7x" parent="wt7" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=2, Саудовская Аравия, 6,174 км" vertex="1"><mxGeometry y="25" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="wt8" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=12;startSize=25;" value="Альберт-парк" vertex="1"><mxGeometry x="700" y="760" width="210" height="50" as="geometry"/></mxCell>
+<mxCell id="wt8x" parent="wt8" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=3, Австралия, 5,278 км" vertex="1"><mxGeometry y="25" width="210" height="25" as="geometry"/></mxCell>
+
+<mxCell id="wt9" parent="1" style="swimlane;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=12;startSize=25;" value="Судзука" vertex="1"><mxGeometry x="700" y="860" width="210" height="50" as="geometry"/></mxCell>
+<mxCell id="wt9x" parent="wt9" style="text;fontSize=11;align=left;spacingLeft=8;" value="id=10, Япония, 5,807 км" vertex="1"><mxGeometry y="25" width="210" height="25" as="geometry"/></mxCell>
+
+<!-- Рёбра: победа_на (пилот → трасса) -->
+<mxCell id="wo1" edge="1" parent="1" source="wp1" target="wt1" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#82b366;fontColor=#82b366;" value="[победа_на]&#xa;2023-07-09&#xa;ГП Великобритании, место=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="wo2" edge="1" parent="1" source="wp2" target="wt2" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#82b366;fontColor=#82b366;" value="[победа_на]&#xa;2023-03-05&#xa;ГП Бахрейна, место=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="wo3" edge="1" parent="1" source="wp2" target="wt3" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#82b366;fontColor=#82b366;" value="[победа_на]&#xa;2023-07-02&#xa;ГП Австрии, место=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="wo4" edge="1" parent="1" source="wp3" target="wt4" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#82b366;fontColor=#82b366;" value="[победа_на]&#xa;2023-05-28&#xa;ГП Монако, место=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="wo5" edge="1" parent="1" source="wp4" target="wt5" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#82b366;fontColor=#82b366;" value="[победа_на]&#xa;2023-09-03&#xa;ГП Италии, место=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="wo6" edge="1" parent="1" source="wp5" target="wt6" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#82b366;fontColor=#82b366;" value="[победа_на]&#xa;2023-06-18&#xa;ГП Канады, место=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="wo7" edge="1" parent="1" source="wp6" target="wt6" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#82b366;fontColor=#82b366;" value="[победа_на]&#xa;2023-05-21&#xa;ГП Эмилии-Романьи, место=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="wo8" edge="1" parent="1" source="wp7" target="wt7" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#82b366;fontColor=#82b366;" value="[победа_на]&#xa;2023-03-19&#xa;ГП Саудовской Аравии, место=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="wo9" edge="1" parent="1" source="wp8" target="wt8" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#82b366;fontColor=#82b366;" value="[победа_на]&#xa;2023-04-02&#xa;ГП Австралии, место=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+<mxCell id="wo10" edge="1" parent="1" source="wp9" target="wt9" style="edgeStyle=orthogonalEdgeStyle;fontSize=10;align=center;strokeColor=#82b366;fontColor=#82b366;" value="[победа_на]&#xa;2023-10-08&#xa;ГП Японии, место=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+<!-- Легенда -->
+<mxCell id="legE2" parent="1" style="swimlane;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=12;startSize=25;" value="Легенда:" vertex="1"><mxGeometry x="40" y="970" width="420" height="100" as="geometry"/></mxCell>
+<mxCell id="legE2a" parent="legE2" style="text;fontSize=11;align=left;spacingLeft=8;fontColor=#82b366;" value="—— [победа_на]: пилот → трасса (дата, гонка, 1-е место)" vertex="1"><mxGeometry y="25" width="420" height="22" as="geometry"/></mxCell>
+<mxCell id="legE2b" parent="legE2" style="text;fontSize=11;align=left;spacingLeft=8;" value="—— [в_составе]: пилот → команда" vertex="1"><mxGeometry y="47" width="420" height="22" as="geometry"/></mxCell>
+<mxCell id="legE2c" parent="legE2" style="text;fontSize=11;align=left;spacingLeft=8;fontColor=#d6b656;" value="—— [управляет]: пилот → болид" vertex="1"><mxGeometry y="69" width="420" height="22" as="geometry"/></mxCell>
+
+</root></mxGraphModel></diagram>
+
+</mxfile>
